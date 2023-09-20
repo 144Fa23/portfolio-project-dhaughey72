@@ -1,0 +1,32 @@
+/* File name: style.css */
+
+/* css reset */
+body, header, nav, main, footer, img, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* nav styles */
+nav{
+    border-top: 3%;
+    border-bottom: 3%;
+    border-color: #2f3e46;
+    max-width: 100%;
+    display: block;
+}
+nav ul{
+    text-align: center;
+    background-color: #84a98c;
+    color: #2f3e46;
+    text-decoration: none;
+    display: inline-block;
+}
+nav ul li{
+    text-decoration: none;
+}
+
+
+body{
+    background-color: #cad2c5;
+}
