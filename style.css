@@ -8,39 +8,86 @@ body, header, nav, main, footer, img, h1, h2, h3, h4, h5, h6{
     
     text-align: center;
     
-    color: #f4f1de;
-    background-color: #3d405b;
+    color: #000;
+    background-color: #fff;
+}
+
+/* header styles */
+header h1{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #0a9396;
+    color: white;
+    text-align: center;
+    
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+    
 }
 
 /* nav styles */
 nav{
-    text-align: center;
     
+    text-align: center;
     border-width: 0.2em;
-    border-color: #2f3e46;
+    padding: 0.5em 1em;
     
     width: 100%;
     display: inline-block;
 }
 nav li{
-    display: inline-block;
+    top: 2em;
     list-style-type: none;
     padding: 0.2em;
+    display: inline-block;
 }
 nav ul{
-    background-color: #e07a5f;
+    
+    background-color: #000;
+    padding: 2.5em 1em;
 }
 nav li a{
-    display: block;
-    color: #f4f1de;
-    padding: 0.5em;
-    text-decoration: none;
+    padding: 0.5em 1em;
+    font-size: 24px;
+    color: #fff;
+}
+
+nav li a:hover {
+    color: #000;
+    background-color: #fff;
 }
 
 /* body styles */
 a{
     text-decoration: none;
 }
-body{
-    background-color: #cad2c5;
+
+/* Job display styles */
+.job {
+    ;
+}
+
+/* footer styles */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0a9396;
+    color: white;
+    text-align: center
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #0a9396;
+    background-color: white;
+    padding: 0.4em;
+    border-radius: 0.2em;
 }
