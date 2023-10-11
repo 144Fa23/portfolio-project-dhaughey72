@@ -34,7 +34,9 @@ nav{
     
     width: 100%;
     display: inline-block;
+    position: -webkit-sticky; /* Safari */
     position: sticky;
+    top: 0;
 }
 nav li{
     float: left;
@@ -97,13 +99,13 @@ p {
     margin: 0;
     float: left;
     width: 33.33%;
-    padding: 15px;
+    padding: 12px;
     
     border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 3px solid #0D00A4;
     padding: 20px;
     width: 250px;
-    height: 200px;
+    height: 220px;
     
     margin: 10px;
 }
@@ -118,10 +120,34 @@ p {
     clear: both;
 }
 
+/* reference styles */
+.refer h2 {
+    display: inline-block;
+    background-color: #1c1c1c;
+    padding: 20px 30px;
+    font-size: 36px;
+    border-radius: 5px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.refer p {
+    padding: 20px;
+    background-color: #1c1c1c;
+}
+
+.num:hover {
+    background-color: #0D00A4;
+    border-radius: 3px;
+    padding: 5px;
+    color: #fff;
+}
+
 /* footer styles */
 
 .footer {
-    position: fixed;
+    padding-bottom: 1em;
+    padding-top: 1em;
     left: 0;
     bottom: 0;
     width: 100%;
