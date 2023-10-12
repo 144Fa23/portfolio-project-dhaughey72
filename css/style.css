@@ -22,8 +22,17 @@ header h1{
     color: white;
     text-align: center;
     
-    padding-bottom: 0.25em;
+    padding-bottom: 1em;
     padding-top: 0.25em;
+    
+    display: block;
+    position: center;
+}
+
+}
+
+.self {
+    width: 50px;
 }
 
 /* nav styles */
@@ -103,11 +112,17 @@ p {
     
     border-radius: 25px;
     border: 3px solid #0D00A4;
+    background-color: #1c1c1c;
     padding: 20px;
     width: 250px;
     height: 220px;
     
     margin: 10px;
+    /* box-shadow: 10px 10px 5px black; */
+}
+
+.job h2 {
+    border-radius: 4px;
 }
 
 .row {
@@ -121,13 +136,20 @@ p {
 }
 
 /* reference styles */
+.refer {
+    background-color: #fff;
+    padding: 2em;
+    
+    margin-top: 3em;
+}
+
 .refer h2 {
     display: inline-block;
     background-color: #1c1c1c;
     padding: 20px 30px;
     font-size: 36px;
     border-radius: 5px;
-    margin-top: 2em;
+    margin-top: 0.75em;
     margin-bottom: 1em;
 }
 
@@ -141,6 +163,46 @@ p {
     border-radius: 3px;
     padding: 5px;
     color: #fff;
+}
+
+/* cant page style rules */
+.con {
+    border: 5px solid #1c1c1c;
+    border-radius: 15px;
+    
+    display: inline-block;
+    
+    padding: 20px 70px;
+}
+
+.con h2 {
+    margin-bottom: 40px;
+    padding: 10px;
+    background-color: #1c1c1c;
+    border-radius: 9px;
+}
+
+.tact p {
+    background-color: #0D00A4;
+    color: #fff;
+    padding: 5px;
+    border-radius: 7px;\
+    
+    display: inline-block;
+    margin: 20px;
+}
+
+.tact p a {
+    color: #fff;
+}
+
+.tact p a:hover {
+    color: #0D00A4;
+}
+
+.tact p:hover {
+    background-color: #fff;
+    color: #0D00A4;
 }
 
 /* footer styles */
