@@ -111,13 +111,13 @@ p {
 }
 
 main ul li {
-    margin-left: 410px;
-    margin-right: 410px;
+    margin-left: 25%px;
+    margin-right: 25%px;
     text-align: left;
 }
 
 iframe {
-    margin: 20px;
+    margin: 10%;
     border: 7px solid #fff;
     border-radius: 12px;
 }
@@ -129,6 +129,29 @@ iframe {
     height: 150px;
     padding-bottom: 2em;
     border-radius: 20px;
+}
+
+/* Media Query for tablet viewpoint */
+@media screen and (min-width: 630px), print {
+    
+    /* Tablet viewport: Style rule for header */
+    header {
+        position: static;
+        padding-bottom: 2%;
+    }
+    
+    /* Tablet viewport: Style rules for nav area */
+    nav li {
+        border-top: none;
+    }
+    
+    nav li:last-child {
+        border-right: none;
+    }
+    
+    nav li a {
+        padding: 0.1em 0.75em;
+    }
 }
 
 /* Job display styles */
